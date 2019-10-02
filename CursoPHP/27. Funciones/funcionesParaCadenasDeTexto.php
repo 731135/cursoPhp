@@ -1,7 +1,8 @@
 <?php
 
-$texto = ' < > & "" ';
+$texto = ' <b> f </b>';
 $nombre = ' Miguel ';
+
 
 echo htmlspecialchars($texto);
 echo "<br>";
@@ -16,4 +17,6 @@ echo "<br>";
 echo strtolower($nombre);
 echo "<br>";
 echo strpos($nombre, 'g');
+
+
 ?>

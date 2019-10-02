@@ -27,6 +27,7 @@ echo "<br>";
 echo $pais;
 echo "<br>";
 echo "<br>";
+
 foreach($semana as $dia)
 {
     echo $dia . '<br />';
@@ -40,7 +41,7 @@ foreach($semana as $dia)
 }
 
 echo "<br>";
-echo join(' -:-:-:- ',$semana);
+echo join('-:-:-:- ',$semana);
 echo "<br>";
 
 $semana_reverse = array_reverse($semana);

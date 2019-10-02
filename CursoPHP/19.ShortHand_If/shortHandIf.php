@@ -1,6 +1,6 @@
 <?php
 
-$edad =18;
+$edad;
 
 $edad = (isset($edad)) ? $edad : "El usuario no ha registrado su edad";
 

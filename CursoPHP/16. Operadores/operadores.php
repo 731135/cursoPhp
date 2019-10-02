@@ -97,7 +97,7 @@ echo "-------------". "<br>";
 
 //Operafores de incremento y deceremento
 
-echo ++ $numero3. "<br>";
+echo ++$numero3. "<br>";
 
 echo $numero4++. "<br>";
 
@@ -111,5 +111,7 @@ $texto1 = "Cadena de Texto";
 $texto2 = " ,Una Segunda Cadena de Texto";
 
 echo $texto1 . $texto2. "<br>";
-echo $texto1 .= " ,Una Tercera Cadena de Texto". "<br>";
+echo $texto1 .= " ,Una Tercera Cadena de Texto" . "bla";
+echo "<br>";
+echo $texto1;
 ?>

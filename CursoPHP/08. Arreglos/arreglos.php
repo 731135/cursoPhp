@@ -2,7 +2,7 @@
 $semana=array('Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo');
 echo $semana[0];
 
-$semana[10]= 'Tellez';
+$semana[9]= 'Tellez';
 
-echo $semana[10];
+echo $semana[5] . "hola";
 ?>

@@ -7,6 +7,7 @@ $arreglo= array('Carlos','Cesar','Alejandro');
 $arreglo_asociativo =array('nombre'=>'Carlos','edad'=>20);
 $boleano=false;
 
-print_r($arreglo_asociativo);
+//print_r($arreglo_asociativo);
+print_r($texto);
 
 ?>

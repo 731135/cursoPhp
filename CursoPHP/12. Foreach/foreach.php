@@ -29,11 +29,16 @@ $alejandro = array('telefono'=> 6646421926, 'edad'=> 20, 'pais'=>'mexico');
             echo '<li>' . $mes . '</li>';
         }
 
+
+
+
+        
         foreach($alejandro as $datos=>$x)
         {
             echo '<li>' . $datos . '</li>';
         }
          ?>
+
     </ul>
 </body>
 </html>

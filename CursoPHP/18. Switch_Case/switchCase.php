@@ -5,7 +5,8 @@
  switch($mes)
  {
     case 'diciembre':
-    echo "Es diciembre";
+    echo "Es diciembre"."<br>";
+    echo "x";
     break;
 
     case 'enero':
